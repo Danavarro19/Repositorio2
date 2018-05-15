@@ -4,7 +4,12 @@ public class PruebaGit {
 
     public static void main(String args[]){
 
-        System.out.println("Hey Git");
+        Cake StrawberryCake= Factory.getCake(Sabor.STRAWBERRY);
+        Cake ChocolateCake= Factory.getCake(Sabor.CHOCOLATE);
+
+        StrawberryCake.sayType();
+        ChocolateCake.sayType();
+
 
 
      }
